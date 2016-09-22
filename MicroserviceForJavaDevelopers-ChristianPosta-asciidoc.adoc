@@ -1,12 +1,12 @@
-= My notes from the book: *MicroserviceForJava* by Christian Posta
+= Notes from the book: *MicroservicesForJava* by Christian Posta
 Kishore Bhatia
 1.0, Sep 22, 2016, Asciidoctor 1.5 article template
 :toc:
 :icons: font
 :quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 
-.Image caption
-image::image-file-name.png[I am the image alt text.]
+.Book Cover
+image::http://blog.christianposta.com/images/bookcover.png[Microservices For Java]
 
 This is another paragraph.footnote:[Footnote.]
 
@@ -21,7 +21,7 @@ This is another paragraph.footnote:[Footnote.]
 *** Efficiency <--> Flexibility (Opp. ends)
 ** Conway’s law: “organizations which design systems…are constrained to produce designs which are copies of the communication structures
 of these organizations.”
-*** nested nested list item 2
+** nested list item 2
 * Chapter2
 
 ////
