@@ -21,7 +21,15 @@ This is another paragraph.footnote:[Footnote.]
 *** Efficiency <--> Flexibility (Opp. ends)
 ** Conway’s law: “organizations which design systems…are constrained to produce designs which are copies of the communication structures
 of these organizations.”
-** nested list item 2
+** Microservices Architecture: MSA is an approach to building software systems that decomposes business domain models into smaller,
+consistent, bounded-contexts implemented by services. Isolated, autonomous services with some piece of biz functions - each team manages internal implementation detail with services contract communicated via _promises_
+** Watch-out for Microservices code smell.footnote:[Shared-libraries, Enterprise-wide canonical models, JIRA change tickets, Single db access?]
+** 5 main things when building MSA:
+*** Design for Faults: Things _will_ fail, handle failure not just prevent it.
+***** Network failures with IOException, Cascading failures from downstream services.
+*** Design with Dependencies in mind:
+***** loose coupling in our teams, in our technology, and our governance
+***** One of the principles of creativity is to drop a constraint.footnote:[Dependency Oriented Thinking, Ganesh Prasad]
 * Chapter2
 
 ////
