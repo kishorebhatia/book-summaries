@@ -1,11 +1,9 @@
-= AsciiDoc Article Title
-Firstname Lastname <author@asciidoctor.org>
+= My notes from the book: *MicroserviceForJava* by Christian Posta
+Kishore Bhatia
 1.0, Sep 22, 2016, Asciidoctor 1.5 article template
 :toc:
 :icons: font
 :quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
-
-== My notes from the book: *MicroserviceForJava* by Christian Posta
 
 .Image caption
 image::image-file-name.png[I am the image alt text.]
@@ -14,20 +12,19 @@ This is another paragraph.footnote:[Footnote.]
 
 === Notes by Chapter
 
-.Unordered list title
 * Chapter1
 ** You work for a software company
 ** (Diminishing) Value over time for ClosedSource technology, products, frameworks - OSS helps (community)!
 ** Disruption - Service Design and Tech evolution lowers the entry barrier, experimentation is cheap, try out fast with active users
 ** Organizational Agility:
 *** Industrial era companies with hier and process gets efficiency at the cost of low agility.
-*** Efficiency <-> Flexibility (Opp. ends)
+*** Efficiency <--> Flexibility (Opp. ends)
 ** Conway’s law: “organizations which design systems…are constrained to produce designs which are copies of the communication structures
 of these organizations.”
 *** nested nested list item 2
 * Chapter2
 
-
+////
 .Example block title
 ====
 Content in an example block is subject to normal substitutions.
@@ -90,3 +87,4 @@ The text at the end of this sentence is cross referenced to <<_third_level_headi
 
 This is a link to the http://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
 This is an attribute reference {quick-uri}[which links this text to the Asciidoctor Quick Reference Guide].
+////
