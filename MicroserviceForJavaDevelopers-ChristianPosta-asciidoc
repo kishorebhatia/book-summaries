@@ -1,0 +1,92 @@
+= AsciiDoc Article Title
+Firstname Lastname <author@asciidoctor.org>
+1.0, Sep 22, 2016, Asciidoctor 1.5 article template
+:toc:
+:icons: font
+:quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+
+== My notes from the book: *MicroserviceForJava* by Christian Posta
+
+.Image caption
+image::image-file-name.png[I am the image alt text.]
+
+This is another paragraph.footnote:[Footnote.]
+
+=== Notes by Chapter
+
+.Unordered list title
+* Chapter1
+** You work for a software company
+** (Diminishing) Value over time for ClosedSource technology, products, frameworks - OSS helps (community)!
+** Disruption - Service Design and Tech evolution lowers the entry barrier, experimentation is cheap, try out fast with active users
+** Organizational Agility:
+*** Industrial era companies with hier and process gets efficiency at the cost of low agility.
+*** Efficiency <-> Flexibility (Opp. ends)
+** Conway’s law: “organizations which design systems…are constrained to produce designs which are copies of the communication structures
+of these organizations.”
+*** nested nested list item 2
+* Chapter2
+
+
+.Example block title
+====
+Content in an example block is subject to normal substitutions.
+====
+
+.Sidebar title
+****
+Sidebars contain aside text and are subject to normal substitutions.
+****
+
+==== Third level heading
+
+[[id-for-listing-block]]
+.Listing block title
+----
+Content in a listing block is subject to verbatim substitutions.
+Listing block content is commonly used to preserve code input.
+----
+
+===== Fourth level heading
+
+.Table title
+|===
+|Column heading 1 |Column heading 2
+
+|Column 1, row 1
+|Column 2, row 1
+
+|Column 1, row 2
+|Column 2, row 2
+|===
+
+====== Fifth level heading
+
+[quote, firstname lastname, movie title]
+____
+I am a block quote or a prose excerpt.
+I am subject to normal substitutions.
+____
+
+[verse, firstname lastname, poem title and more]
+____
+I am a verse block.
+  Indents and endlines are preserved in verse blocks.
+____
+
+== First level heading
+
+TIP: There are five admonition labels: Tip, Note, Important, Caution and Warning.
+
+// I am a comment and won't be rendered.
+
+. ordered list item
+.. nested ordered list item
+. ordered list item
+
+The text at the end of this sentence is cross referenced to <<_third_level_heading,the third level heading>>
+
+== First level heading
+
+This is a link to the http://asciidoctor.org/docs/user-manual/[Asciidoctor User Manual].
+This is an attribute reference {quick-uri}[which links this text to the Asciidoctor Quick Reference Guide].
