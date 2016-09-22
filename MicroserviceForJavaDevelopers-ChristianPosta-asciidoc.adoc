@@ -6,7 +6,7 @@ Kishore Bhatia
 :quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 
 .Book Cover
-image::http://blog.christianposta.com/images/bookcover.png[Microservices For Java]
+image::http://blog.christianposta.com/images/bookcover.png[Microservices For Java, height=100, width=200]
 
 This is another paragraph.footnote:[Footnote.]
 
@@ -29,7 +29,10 @@ consistent, bounded-contexts implemented by services. Isolated, autonomous servi
 ***** Network failures with IOException, Cascading failures from downstream services.
 *** Design with Dependencies in mind:
 ***** loose coupling in our teams, in our technology, and our governance
-***** One of the principles of creativity is to drop a constraint.footnote:[Dependency Oriented Thinking, Ganesh Prasad]
+***** One of the principles of creativity is to drop a constraint.footnote:[Dependency Oriented Thinking, Ganesh Prasad]. You can come up with creative solutions to problems if
+you mentally eliminate one or more dependencies.
+***** Abstract out the dependency on legacy systems. Backend data, calls, formats...
+*** Design with domain in mind
 * Chapter2
 
 ////
