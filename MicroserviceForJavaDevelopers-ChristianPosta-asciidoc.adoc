@@ -6,7 +6,7 @@ Kishore Bhatia
 :quick-uri: http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
 
 .Book Cover
-image::http://blog.christianposta.com/images/bookcover.png[Microservices For Java, height=300, width=200]
+image::http://blog.christianposta.com/images/bookcover.png[Microservices For Java, height=300, width=250]
 
 This is another paragraph.footnote:[Footnote.]
 
